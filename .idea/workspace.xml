@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634820d5-6e35-41e2-b7f4-134d7cfbdb68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,8 +86,8 @@
       <file leaf-file-name="PublicService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
+            <state relative-caret-position="560">
+              <caret line="426" selection-start-line="426" selection-end-line="426" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ElectroEnergo#0;class#PublicService#0" />
@@ -105,11 +105,8 @@
       <file leaf-file-name="TV.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -141,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TestEasyPay.java" />
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Mobile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java" />
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java" />
       </list>
     </option>
   </component>
@@ -473,11 +470,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47298786" weight="0.26304802" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -485,10 +483,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3296582" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6493936" weight="0.32881" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49944875" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49944875" weight="0.32985386" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2045204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2045204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972437" />
       <window_info id="UI Designer" order="2" />
@@ -501,7 +499,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.47298786" visible="true" weight="0.26304802" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1043,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
+        <state relative-caret-position="560">
+          <caret line="426" selection-start-line="426" selection-end-line="426" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ElectroEnergo#0;class#PublicService#0" />
@@ -1060,11 +1057,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
