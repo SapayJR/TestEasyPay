@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634820d5-6e35-41e2-b7f4-134d7cfbdb68" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Amuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Insurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Taxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Telephony.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uz/smst/cabinet/Tests/PublicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uz/smst/cabinet/Tests/PublicService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,39 +21,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Test" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="19" selection-start-line="9" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mobile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Mobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#perfectum#0;class#Mobile#0" />
-                <element signature="method#Ucell#0;class#Mobile#0" />
-                <element signature="method#beeline#0;class#Mobile#0" />
-                <element signature="method#UMS#0;class#Mobile#0" />
-                <element signature="method#Uzmobile#0;class#Mobile#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Settings/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="561">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +41,8 @@
       <file leaf-file-name="IntProviders.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntProviders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="175" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="289">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Sarkor#0;class#IntProviders#0" />
@@ -83,11 +68,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="19" selection-start-line="9" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PublicService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="426" selection-start-line="426" selection-end-line="426" />
+            <state relative-caret-position="255">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ElectroEnergo#0;class#PublicService#0" />
@@ -102,11 +96,96 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TV.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="1054">
+              <caret line="524" column="40" selection-start-line="524" selection-start-column="40" selection-end-line="524" selection-end-column="40" />
+              <folding>
+                <element signature="method#Mediabay#0;class#TV#0" />
+                <element signature="method#Kinopokaz#0;class#TV#0" />
+                <element signature="method#OXO#0;class#TV#0" />
+                <element signature="method#UZDigital#0;class#TV#0" />
+                <element signature="method#Player#0;class#TV#0" />
+                <element signature="method#CMAXX#0;class#TV#0" />
+                <element signature="method#Allmovies#0;class#TV#0" />
+                <element signature="method#OnlineTV#0;class#TV#0" />
+                <element signature="method#Allplay#0;class#TV#0" />
+                <element signature="method#KINOMANIA#0;class#TV#0" />
+                <element signature="method#TASX#0;class#TV#0" />
+                <element signature="method#Spectr#0;class#TV#0" />
+                <element signature="method#EastStark#0;class#TV#0" />
+                <element signature="method#ISTV#0;class#TV#0" />
+                <marker date="1529314376584" expanded="false" signature="6436:7601" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Insurance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Insurance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AlfaInvest#0;class#Insurance#0" />
+                <element signature="method#UzbekInvest#0;class#Insurance#0" />
+                <element signature="method#Kafolat#0;class#Insurance#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mobile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Mobile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="202" column="48" selection-start-line="202" selection-start-column="48" selection-end-line="202" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#perfectum#0;class#Mobile#0" />
+                <element signature="method#Ucell#0;class#Mobile#0" />
+                <element signature="method#beeline#0;class#Mobile#0" />
+                <element signature="method#UMS#0;class#Mobile#0" />
+                <element signature="method#Uzmobile#0;class#Mobile#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntRes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntRes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Telephony.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Telephony.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="335" lean-forward="true" selection-start-line="335" selection-end-line="335" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#UzTelJizzakh#0;class#Telephony#0" />
+                <element signature="method#JizzakhUZI#0;class#Telephony#0" />
+                <element signature="method#SamarqandUZI#0;class#Telephony#0" />
+                <element signature="method#SamarkandUZTEL#0;class#Telephony#0" />
+                <element signature="method#Surhan#0;class#Telephony#0" />
+                <element signature="method#SIRDARYO#0;class#Telephony#0" />
+                <element signature="method#Namangan#0;class#Telephony#0" />
+                <element signature="method#Khorezm#0;class#Telephony#0" />
+                <element signature="method#Navoi#0;class#Telephony#0" />
+                <element signature="method#Buxara#0;class#Telephony#0" />
+                <element signature="method#Fergana#0;class#Telephony#0" />
+                <element signature="method#GorTelTash#0;class#Telephony#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +201,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,8 +222,14 @@
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TestEasyPay.java" />
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Mobile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Insurance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntRes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Telephony.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Taxes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/GovServices.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Amuse.java" />
         <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java" />
       </list>
     </option>
   </component>
@@ -155,9 +245,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="1911" />
     <option name="width" value="1874" />
-    <option name="height" value="1092" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +311,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -241,27 +331,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PublicService.TeploEnergo">
+  <component name="RunManager" selected="JUnit.Telephony.TashReg">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ALL" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="Amuse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uz.smst.cabinet.Settings.*" />
+          <option name="PATTERN" value="uz.smst.cabinet.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="uz.smst.cabinet.Tests" />
-      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.Mobile" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.Amuse" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -291,7 +381,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="IntProviders.Simus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -302,30 +392,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="uz.smst.cabinet.Tests" />
-      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.IntProviders" />
-      <option name="METHOD_NAME" value="Simus" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PublicService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uz.smst.cabinet.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="uz.smst.cabinet.Tests" />
-      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.PublicService" />
+      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.TV" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -337,7 +404,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PublicService.TeploEnergo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Telephony" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -348,8 +415,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="uz.smst.cabinet.Tests" />
-      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.PublicService" />
-      <option name="METHOD_NAME" value="TeploEnergo" />
+      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.Telephony" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Telephony.TashReg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.smst.cabinet.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="uz.smst.cabinet.Tests" />
+      <option name="MAIN_CLASS_NAME" value="uz.smst.cabinet.Tests.Telephony" />
+      <option name="METHOD_NAME" value="TashReg" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -399,19 +489,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ALL" />
+      <item itemvalue="JUnit.TV" />
+      <item itemvalue="JUnit.Telephony" />
+      <item itemvalue="JUnit.Amuse" />
       <item itemvalue="JUnit.IntProviders" />
-      <item itemvalue="JUnit.IntProviders.Simus" />
-      <item itemvalue="JUnit.PublicService" />
-      <item itemvalue="JUnit.PublicService.TeploEnergo" />
+      <item itemvalue="JUnit.Telephony.TashReg" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PublicService.TeploEnergo" />
-        <item itemvalue="JUnit.PublicService" />
-        <item itemvalue="JUnit.IntProviders.Simus" />
+        <item itemvalue="JUnit.Telephony.TashReg" />
+        <item itemvalue="JUnit.Telephony" />
         <item itemvalue="JUnit.IntProviders" />
-        <item itemvalue="JUnit.ALL" />
+        <item itemvalue="JUnit.TV" />
+        <item itemvalue="JUnit.Amuse" />
       </list>
     </recent_temporary>
   </component>
@@ -426,38 +516,46 @@
       <option name="presentableId" value="Default" />
       <updated>1528200247455</updated>
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1528956399979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528956399979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ALL - 2018.06.11 at 11h 17m 07s.xml">
-      <configuration name="ALL" configurationId="JUnit" />
+    <history-entry file="Taxes - 2018.06.21 at 09h 10m 59s.xml">
+      <configuration name="Taxes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntProviders - 2018.06.11 at 12h 48m 10s.xml">
+    <history-entry file="Taxes - 2018.06.21 at 09h 21m 39s.xml">
+      <configuration name="Taxes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Amuse - 2018.06.21 at 09h 46m 16s.xml">
+      <configuration name="Amuse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Amuse - 2018.06.21 at 09h 47m 18s.xml">
+      <configuration name="Amuse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Amuse - 2018.06.21 at 09h 51m 52s.xml">
+      <configuration name="Amuse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TV - 2018.07.04 at 19h 37m 20s.xml">
+      <configuration name="TV" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Telephony - 2018.07.11 at 13h 08m 54s.xml">
+      <configuration name="Telephony" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntProviders - 2018.07.13 at 15h 32m 40s.xml">
       <configuration name="IntProviders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntProviders - 2018.06.11 at 18h 08m 14s.xml">
-      <configuration name="IntProviders" configurationId="JUnit" />
+    <history-entry file="Telephony - 2018.07.16 at 11h 36m 50s.xml">
+      <configuration name="Telephony" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntProviders_Simus - 2018.06.11 at 18h 10m 25s.xml">
-      <configuration name="IntProviders.Simus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicService - 2018.06.11 at 18h 26m 56s.xml">
-      <configuration name="PublicService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicService - 2018.06.11 at 18h 27m 33s.xml">
-      <configuration name="PublicService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicService - 2018.06.11 at 18h 30m 54s.xml">
-      <configuration name="PublicService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicService - 2018.06.12 at 17h 04m 04s.xml">
-      <configuration name="PublicService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicService_TeploEnergo - 2018.06.12 at 17h 05m 46s.xml">
-      <configuration name="PublicService.TeploEnergo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicService_TeploEnergo - 2018.06.12 at 17h 07m 30s.xml">
-      <configuration name="PublicService.TeploEnergo" configurationId="JUnit" />
+    <history-entry file="Telephony_TashReg - 2018.07.16 at 11h 42m 59s.xml">
+      <configuration name="Telephony.TashReg" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -470,28 +568,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47298786" weight="0.26304802" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.46692392" weight="0.26304802" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005513" side_tool="true" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.35832414" side_tool="true" visible="true" weight="0.41127348" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3296582" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6493936" weight="0.32881" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.62072766" weight="0.32985386" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.64167583" visible="true" weight="0.41127348" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49944875" weight="0.32985386" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2045204" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992764" visible="true" weight="0.25358325" />
+      <window_info id="Structure" order="1" sideWeight="0.5007236" side_tool="true" weight="0.24807057" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972437" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007236" side_tool="true" weight="0.24807057" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979124" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,23 +599,42 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntProviders.java</url>
-          <line>694</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -978,17 +1095,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TestEasyPay.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/TV.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/GovServices.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Taxes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" selection-start-line="9" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#InsurTax#0;class#Taxes#0" />
+            <element signature="method#IncomeTax#0;class#Taxes#0" />
+            <element signature="method#IncomeDeclar#0;class#Taxes#0" />
+            <element signature="method#PropertyTax#0;class#Taxes#0" />
+            <element signature="method#LandTax#0;class#Taxes#0" />
+            <element signature="method#PenaltyTax#0;class#Taxes#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Amuse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Anhor#0;class#Amuse#0" />
+            <element signature="method#Istirohat#0;class#Amuse#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ElectroEnergo#0;class#PublicService#0" />
+            <element signature="method#SuvSoz#0;class#PublicService#0" />
+            <element signature="method#TeploEnergo#0;class#PublicService#0" />
+            <element signature="method#Gaz#0;class#PublicService#0" />
+            <element signature="method#MahsusTrans#0;class#PublicService#0" />
+            <element signature="method#Hamza#0;class#PublicService#0" />
+            <element signature="method#MJKO#0;class#PublicService#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Mobile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="527">
+          <caret line="202" column="48" selection-start-line="202" selection-start-column="48" selection-end-line="202" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#perfectum#0;class#Mobile#0" />
@@ -1000,10 +1166,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="524" column="40" selection-start-line="524" selection-start-column="40" selection-end-line="524" selection-end-column="40" />
+          <folding>
+            <element signature="method#Mediabay#0;class#TV#0" />
+            <element signature="method#Kinopokaz#0;class#TV#0" />
+            <element signature="method#OXO#0;class#TV#0" />
+            <element signature="method#UZDigital#0;class#TV#0" />
+            <element signature="method#Player#0;class#TV#0" />
+            <element signature="method#CMAXX#0;class#TV#0" />
+            <element signature="method#Allmovies#0;class#TV#0" />
+            <element signature="method#OnlineTV#0;class#TV#0" />
+            <element signature="method#Allplay#0;class#TV#0" />
+            <element signature="method#KINOMANIA#0;class#TV#0" />
+            <element signature="method#TASX#0;class#TV#0" />
+            <element signature="method#Spectr#0;class#TV#0" />
+            <element signature="method#EastStark#0;class#TV#0" />
+            <element signature="method#ISTV#0;class#TV#0" />
+            <marker date="1529314376584" expanded="false" signature="6436:7601" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" selection-start-line="9" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Settings/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Insurance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AlfaInvest#0;class#Insurance#0" />
+            <element signature="method#UzbekInvest#0;class#Insurance#0" />
+            <element signature="method#Kafolat#0;class#Insurance#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/IntProviders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="289">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Sarkor#0;class#IntProviders#0" />
@@ -1028,37 +1248,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Settings/WebDriverSettings.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="383">
+          <caret line="563" column="36" lean-forward="true" selection-start-line="563" selection-start-column="36" selection-end-line="563" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/PublicService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/Telephony.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="426" selection-start-line="426" selection-end-line="426" />
+        <state relative-caret-position="410">
+          <caret line="335" lean-forward="true" selection-start-line="335" selection-end-line="335" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ElectroEnergo#0;class#PublicService#0" />
-            <element signature="method#SuvSoz#0;class#PublicService#0" />
-            <element signature="method#TeploEnergo#0;class#PublicService#0" />
-            <element signature="method#Gaz#0;class#PublicService#0" />
-            <element signature="method#MahsusTrans#0;class#PublicService#0" />
-            <element signature="method#Hamza#0;class#PublicService#0" />
-            <element signature="method#MJKO#0;class#PublicService#0" />
+            <element signature="method#UzTelJizzakh#0;class#Telephony#0" />
+            <element signature="method#JizzakhUZI#0;class#Telephony#0" />
+            <element signature="method#SamarqandUZI#0;class#Telephony#0" />
+            <element signature="method#SamarkandUZTEL#0;class#Telephony#0" />
+            <element signature="method#Surhan#0;class#Telephony#0" />
+            <element signature="method#SIRDARYO#0;class#Telephony#0" />
+            <element signature="method#Namangan#0;class#Telephony#0" />
+            <element signature="method#Khorezm#0;class#Telephony#0" />
+            <element signature="method#Navoi#0;class#Telephony#0" />
+            <element signature="method#Buxara#0;class#Telephony#0" />
+            <element signature="method#Fergana#0;class#Telephony#0" />
+            <element signature="method#GorTelTash#0;class#Telephony#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/uz/smst/cabinet/Tests/TV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

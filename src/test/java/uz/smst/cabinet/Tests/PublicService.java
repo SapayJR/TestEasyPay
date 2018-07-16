@@ -295,8 +295,6 @@ public class PublicService extends WebDriverSettings {
 
         }
 
-
-
         @Test
 
             public void MahsusTrans() throws Exception {
