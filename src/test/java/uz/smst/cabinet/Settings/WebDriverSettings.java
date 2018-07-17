@@ -22,6 +22,7 @@ public class WebDriverSettings {
     @Before
     public void setUp(){
         driver = new ChromeDriver();
+        WebDriverWait wait = new WebDriverWait(driver, 30, 10000);
         driver.get("https://pay.smst.uz/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

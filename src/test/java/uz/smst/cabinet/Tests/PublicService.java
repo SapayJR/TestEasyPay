@@ -18,7 +18,6 @@ public class PublicService extends WebDriverSettings {
 
 
         @Test
-
             public void ElectroEnergo() throws Exception {
 
             driver.findElement(By.className("uicon-cat-communal")).click();
@@ -76,7 +75,6 @@ public class PublicService extends WebDriverSettings {
         }
 
         @Test
-
             public void SuvSoz() throws Exception {
 
             driver.findElement(By.className("uicon-cat-communal")).click();
@@ -163,7 +161,6 @@ public class PublicService extends WebDriverSettings {
         }
 
         @Test
-
             public void TeploEnergo() throws Exception {
 
             driver.findElement(By.className("uicon-cat-communal")).click();
@@ -240,7 +237,6 @@ public class PublicService extends WebDriverSettings {
         }
 
         @Test
-
             public  void Gaz() throws Exception {
 
             driver.findElement(By.className("uicon-cat-communal")).click();
@@ -261,6 +257,7 @@ public class PublicService extends WebDriverSettings {
 
             driver.findElement(By.name("amount")).clear();
             driver.findElement(By.name("amount")).sendKeys("500");
+            Thread.sleep(2000);
 
             driver.findElement(By.xpath("button[@type='submit']")).click();
             Thread.sleep(5000);
@@ -296,7 +293,6 @@ public class PublicService extends WebDriverSettings {
         }
 
         @Test
-
             public void MahsusTrans() throws Exception {
 
             driver.findElement(By.className("uicon-cat-communal")).click();
@@ -342,7 +338,6 @@ public class PublicService extends WebDriverSettings {
         }
 
         @Test
-
             public void Hamza() throws Exception {
 
             driver.findElement(By.className("uicon-cat-communal")).click();
@@ -381,7 +376,6 @@ public class PublicService extends WebDriverSettings {
         }
 
         @Test
-
             public void MJKO() throws Exception {
 
             driver.findElement(By.className("uicon-cat-communal")).click();
