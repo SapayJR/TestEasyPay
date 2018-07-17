@@ -9,7 +9,7 @@ public class Amuse extends WebDriverSettings {
 
     @Test
 
-            public void Anhor() throws Exception {
+    public void Anhor() throws Exception {
 
         driver.findElement(By.linkText("Развлечение")).click();
         Thread.sleep(3000);
