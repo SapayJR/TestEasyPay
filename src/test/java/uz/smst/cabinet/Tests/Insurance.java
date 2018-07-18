@@ -79,8 +79,8 @@ public class Insurance extends WebDriverSettings {
         new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
         Thread.sleep(1000);
 
-        driver.findElement(By.name("account")).clear();
-        driver.findElement(By.name("account")).sendKeys("7377447");
+        driver.findElement(By.name("phone")).clear();
+        driver.findElement(By.name("phone")).sendKeys("7377447");
         Thread.sleep(3000);
 
         driver.findElement(By.name("amount")).clear();

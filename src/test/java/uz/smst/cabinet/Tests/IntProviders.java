@@ -11,10 +11,10 @@ import uz.smst.cabinet.Settings.WebDriverSettings;
 public class IntProviders extends WebDriverSettings {
 
         @Test
-             public void Sarkor() throws Exception{
+        public void Sarkor() throws Exception{
 
-        System.out.println("TEST SARKOR");
 
+        Thread.sleep(5000);
         driver.findElement(By.className("uicon-cat-internet-providers")).click();
 
 
@@ -801,17 +801,5 @@ public class IntProviders extends WebDriverSettings {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

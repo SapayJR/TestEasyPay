@@ -316,7 +316,7 @@ public class PublicService extends WebDriverSettings {
             driver.findElement(By.name("amount")).sendKeys("500");
             Thread.sleep(3000);
 
-            driver.findElement(By.xpath("button[@type='submit']")).click();
+            driver.findElement(By.xpath("//button[@type='submit']")).click();
             Thread.sleep(10000);
 
             driver.findElement(By.name("cardNumber")).clear();
@@ -353,7 +353,7 @@ public class PublicService extends WebDriverSettings {
             driver.findElement(By.name("amount")).clear();
             driver.findElement(By.name("amount")).sendKeys("500");
 
-            driver.findElement(By.xpath("button[@type='submit']")).click();
+            driver.findElement(By.xpath("//button[@type='submit']")).click();
             Thread.sleep(10000);
 
             driver.findElement(By.name("cardNumber")).clear();
