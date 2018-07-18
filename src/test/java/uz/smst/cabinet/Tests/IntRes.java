@@ -8,7 +8,6 @@ public class IntRes extends WebDriverSettings {
 
 
     @Test
-
         public void OLX() throws Exception {
 
         driver.findElement(By.className("uicon-cat-internet-services")).click();

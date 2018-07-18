@@ -31,7 +31,10 @@ public class WebDriverSettings {
         driver.get("https://pay.smst.uz/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+      /**
+            В комментарии ниже настройки для переключения на  Firefox
+            Нужно Доделать
+        */
 //    public FirefoxDriver driver;
 //
 //    @Before

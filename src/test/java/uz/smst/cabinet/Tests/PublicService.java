@@ -8,9 +8,7 @@ import sun.invoke.util.VerifyType;
 import uz.smst.cabinet.Settings.WebDriverSettings;
 import org.openqa.selenium.WebElement;
 
-/**
- * Created by SapayJR on 05.06.2018.
- */
+
 
 
 

@@ -8,7 +8,6 @@ public class Amuse extends WebDriverSettings {
 
 
     @Test
-
     public void Anhor() throws Exception {
 
         driver.findElement(By.linkText("Развлечение")).click();
@@ -49,7 +48,6 @@ public class Amuse extends WebDriverSettings {
 
 
     @Test
-
     public void Istirohat() throws Exception {
 
         driver.findElement(By.linkText("Развлечение")).click();

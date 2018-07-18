@@ -116,29 +116,7 @@ public class Insurance extends WebDriverSettings {
         driver.findElement(By.linkText("Kafolat")).click();
         Thread.sleep(3000);
 
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
-        Thread.sleep(1000);
 
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("93");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("94");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("95");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("97");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("98");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("99");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
-        Thread.sleep(1000);
 
         driver.findElement(By.name("account")).clear();
         driver.findElement(By.name("account")).sendKeys("3568704");
@@ -201,8 +179,8 @@ public class Insurance extends WebDriverSettings {
         new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
         Thread.sleep(1000);
 
-        driver.findElement(By.name("account")).clear();
-        driver.findElement(By.name("account")).sendKeys("9771809");
+        driver.findElement(By.name("phone")).clear();
+        driver.findElement(By.name("phone")).sendKeys("9771809");
         Thread.sleep(3000);
 
         driver.findElement(By.name("amount")).clear();
@@ -228,5 +206,69 @@ public class Insurance extends WebDriverSettings {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         Thread.sleep(10000);
     }
+
+    @Test
+    public void Ishonch() throws Exception{
+
+        driver.findElement(By.className("uicon-cat-insurance")).click();
+        Thread.sleep(3000);
+
+        driver.findElement(By.linkText("IShONCh")).click();
+        Thread.sleep(3000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
+        Thread.sleep(1000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("93");
+        Thread.sleep(1000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("94");
+        Thread.sleep(1000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("95");
+        Thread.sleep(1000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("97");
+        Thread.sleep(1000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("98");
+        Thread.sleep(1000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("99");
+        Thread.sleep(1000);
+
+        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
+        Thread.sleep(1000);
+
+        driver.findElement(By.name("phone")).clear();
+        driver.findElement(By.name("phone")).sendKeys("3559777");
+        Thread.sleep(3000);
+
+        driver.findElement(By.name("amount")).clear();
+        driver.findElement(By.name("amount")).sendKeys("500");
+        Thread.sleep(3000);
+
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Thread.sleep(3000);
+
+        driver.findElement(By.name("cardNumber")).clear();
+        driver.findElement(By.name("cardNumber")).sendKeys("8600510369728378");
+        Thread.sleep(3000);
+
+
+        driver.findElement(By.name("exDate")).clear();
+        driver.findElement(By.name("exDate")).sendKeys("0820");
+        Thread.sleep(3000);
+
+        driver.findElement(By.name("phoneNumber")).clear();
+        driver.findElement(By.name("phoneNumber")).sendKeys("901203445");
+        Thread.sleep(3000);
+
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Thread.sleep(10000);
+
+
+    }
+
 
 }

@@ -210,45 +210,6 @@ public class TV extends WebDriverSettings {
 
     @Test
 
-        public void CMAXX() throws Exception {
-
-        driver.findElement(By.className("uicon-cat-tv")).click();
-        Thread.sleep(3000);
-
-        driver.findElement(By.linkText("CMAXX")).click();
-        Thread.sleep(3000);
-
-       new Select(driver.findElement(By.name("account"))).selectByVisibleText("7.5");
-       Thread.sleep(3000);
-
-
-        new Select(driver.findElement(By.name("account"))).selectByVisibleText("15");
-        Thread.sleep(3000);
-
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-        Thread.sleep(10000);
-
-        driver.findElement(By.name("cardNumber")).clear();
-        driver.findElement(By.name("cardNumber")).sendKeys("8600510369728378");
-        Thread.sleep(3000);
-
-
-        driver.findElement(By.name("exDate")).clear();
-        driver.findElement(By.name("exDate")).sendKeys("0820");
-        Thread.sleep(3000);
-
-        driver.findElement(By.name("phoneNumber")).clear();
-        driver.findElement(By.name("phoneNumber")).sendKeys("901203445");
-        Thread.sleep(3000);
-
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-        Thread.sleep(10000);
-
-
-    }
-
-    @Test
-
         public void Allmovies() throws Exception {
 
         driver.findElement(By.className("uicon-cat-tv")).click();
