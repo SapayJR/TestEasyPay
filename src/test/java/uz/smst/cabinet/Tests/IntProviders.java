@@ -7,9 +7,6 @@ import uz.smst.cabinet.Settings.WebDriverSettings;
 
 
 
-/**
- * Created by SapayJR on 05.06.2018.
- */
 
 public class IntProviders extends WebDriverSettings {
 

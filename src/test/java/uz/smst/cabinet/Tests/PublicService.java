@@ -259,7 +259,7 @@ public class PublicService extends WebDriverSettings {
             driver.findElement(By.name("amount")).sendKeys("500");
             Thread.sleep(2000);
 
-            driver.findElement(By.xpath("button[@type='submit']")).click();
+            driver.findElement(By.xpath("//button[@type='submit']")).click();
             Thread.sleep(5000);
 
             new Select(driver.findElement(By.name("type"))).selectByVisibleText("Нет");
