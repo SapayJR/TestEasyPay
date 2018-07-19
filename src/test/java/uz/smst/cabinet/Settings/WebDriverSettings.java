@@ -20,7 +20,9 @@ import java.util.concurrent.TimeUnit;
 public class WebDriverSettings {
 
 
-
+    /**
+     * Настройки для Google Chrome
+     */
 
     public ChromeDriver driver;
 
@@ -31,10 +33,14 @@ public class WebDriverSettings {
         driver.get("https://pay.smst.uz/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+
+
       /**
-            В комментарии ниже настройки для переключения на  Firefox
-            Нужно Доделать
+           * Настройки для переключения на  Firefox
         */
+      // TODO Дописать и настроить кроссбраузерное тестирование
 //    public FirefoxDriver driver;
 //
 //    @Before
