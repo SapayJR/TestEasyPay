@@ -42,6 +42,10 @@ public class PublicService extends WebDriverSettings {
             driver.findElement(By.xpath("//button[@type='submit']")).click();
             Thread.sleep(5000);
 
+            Assert.assertTrue(isElementPresent(By.xpath("//div[@class='pay-logo']//img[@class='ng-tns-c7-3']")));
+
+            Assert.assertEquals("Оплата за услугу Электроэнергия",
+                    driver.findElement(By.xpath("//h3[contains(text(),'Оплата за услугу Электроэнергия')]")).getText());
 
             new Select(driver.findElement(By.name("type"))).selectByVisibleText("Нет");
             Thread.sleep(2000);
@@ -68,8 +72,12 @@ public class PublicService extends WebDriverSettings {
             Thread.sleep(3000);
 
             driver.findElement(By.xpath("//button[@type='submit']")).click();
-            Thread.sleep(10000);
+            Thread.sleep(5000);
 
+            Assert.assertEquals("Убедительная просьба проверить все данные, если данные верны то введите код и нажмите продолжить.",
+                    driver.findElement(By.xpath("//div[@class='alert alert-info']")).getText());
+
+            Thread.sleep(5000);
         }
 
         @Test
@@ -129,6 +137,12 @@ public class PublicService extends WebDriverSettings {
             driver.findElement(By.xpath("//button[@type='submit']")).click();
             Thread.sleep(5000);
 
+            Assert.assertTrue(isElementPresent(By.xpath("//div[@class='pay-logo']//img[@class='ng-tns-c7-3']")));
+            Assert.assertEquals("Оплата за услугу Холодная вода и канализация",
+                    driver.findElement(By.xpath("//h3[contains(text(),'Оплата за услугу Холодная вода и канализация')]")).getText());
+            Assert.assertEquals("Сумма оплаты", driver.findElement(By.xpath("//h2[contains(text(),'Сумма оплаты')]")).getText());
+
+
             new Select(driver.findElement(By.name("type"))).selectByVisibleText("Нет");
             Thread.sleep(2000);
 
@@ -154,7 +168,12 @@ public class PublicService extends WebDriverSettings {
             Thread.sleep(3000);
 
             driver.findElement(By.xpath("//button[@type='submit']")).click();
-            Thread.sleep(10000);
+            Thread.sleep(5000);
+
+            Assert.assertEquals("Убедительная просьба проверить все данные, если данные верны то введите код и нажмите продолжить.",
+                    driver.findElement(By.xpath("//div[@class='alert alert-info']")).getText());
+
+            Thread.sleep(5000);
 
         }
 
@@ -259,6 +278,9 @@ public class PublicService extends WebDriverSettings {
 
             driver.findElement(By.xpath("//button[@type='submit']")).click();
             Thread.sleep(5000);
+
+
+            Assert.assertEquals("Наименование Услуги:", driver.findElement(By.xpath("//td[contains(text(),'Наименованиие Услуги:')]")).getText());
 
             new Select(driver.findElement(By.name("type"))).selectByVisibleText("Нет");
             Thread.sleep(3000);

@@ -10,7 +10,6 @@ public class Taxes extends WebDriverSettings {
 
 
     @Test
-
         public void InsurTax() throws Exception {
 
         driver.findElement(By.className("uicon-cat-tax")).click();
@@ -58,8 +57,8 @@ public class Taxes extends WebDriverSettings {
 
     }
 
-    @Test
 
+    @Test
          public void IncomeTax() throws Exception {
 
         driver.findElement(By.className("uicon-cat-tax")).click();
@@ -108,8 +107,8 @@ public class Taxes extends WebDriverSettings {
 
     }
 
-    @Test
 
+    @Test
          public void IncomeDeclar() throws Exception {
 
         driver.findElement(By.className("uicon-cat-tax")).click();
@@ -155,8 +154,8 @@ public class Taxes extends WebDriverSettings {
 
     }
 
-    @Test
 
+    @Test
         public void PropertyTax() throws Exception {
 
         driver.findElement(By.className("uicon-cat-tax")).click();
@@ -203,8 +202,8 @@ public class Taxes extends WebDriverSettings {
 
     }
 
-    @Test
 
+    @Test
         public void LandTax() throws Exception {
 
         driver.findElement(By.className("uicon-cat-tax")).click();
@@ -250,8 +249,8 @@ public class Taxes extends WebDriverSettings {
 
     }
 
-    @Test
 
+    @Test
          public void PenaltyTax() throws Exception {
 
         driver.findElement(By.className("uicon-cat-tax")).click();

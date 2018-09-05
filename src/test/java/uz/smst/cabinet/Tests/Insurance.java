@@ -216,32 +216,9 @@ public class Insurance extends WebDriverSettings {
         driver.findElement(By.linkText("IShONCh")).click();
         Thread.sleep(3000);
 
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
-        Thread.sleep(1000);
 
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("93");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("94");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("95");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("97");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("98");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("99");
-        Thread.sleep(1000);
-
-        new Select(driver.findElement(By.name("prefix"))).selectByVisibleText("90");
-        Thread.sleep(1000);
-
-        driver.findElement(By.name("phone")).clear();
-        driver.findElement(By.name("phone")).sendKeys("3559777");
+        driver.findElement(By.name("account")).clear();
+        driver.findElement(By.name("account")).sendKeys("3559777");
         Thread.sleep(3000);
 
         driver.findElement(By.name("amount")).clear();
