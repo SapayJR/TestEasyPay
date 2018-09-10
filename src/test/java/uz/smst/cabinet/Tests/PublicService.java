@@ -253,64 +253,64 @@ public class PublicService extends WebDriverSettings {
 
         }
 
-        @Test
-            public  void Gaz() throws Exception {
-
-            driver.findElement(By.className("uicon-cat-communal")).click();
-            Thread.sleep(3000);
-
-            driver.findElement(By.linkText("Газ")).click();
-            Thread.sleep(3000);
-
-            new Select(driver.findElement(By.name("regionCode"))).selectByVisibleText("г. Ташкент");
-            Thread.sleep(3000);
-
-            new Select(driver.findElement(By.name("subRegionCode"))).selectByVisibleText("Юнусабадский район");
-            Thread.sleep(3000);
-
-            driver.findElement(By.name("account")).clear();
-            driver.findElement(By.name("account")).sendKeys("07315130");
-            Thread.sleep(3000);
-
-            driver.findElement(By.name("amount")).clear();
-            driver.findElement(By.name("amount")).sendKeys("500");
-            Thread.sleep(2000);
-
-            driver.findElement(By.xpath("//button[@type='submit']")).click();
-            Thread.sleep(5000);
-
-
-            Assert.assertEquals("Наименование Услуги:", driver.findElement(By.xpath("//td[contains(text(),'Наименованиие Услуги:')]")).getText());
-
-            new Select(driver.findElement(By.name("type"))).selectByVisibleText("Нет");
-            Thread.sleep(3000);
-
-            driver.findElement(By.name("counterFrom")).click();
-            driver.findElement(By.name("counterFrom")).sendKeys("01012018");
-            Thread.sleep(3000);
-
-            driver.findElement(By.name("counterTo")).click();
-            driver.findElement(By.name("counterTo")).sendKeys("01052018");
-            Thread.sleep(3000);
-
-            driver.findElement(By.name("cardNumber")).clear();
-            driver.findElement(By.name("cardNumber")).sendKeys("8600510369728378");
-            Thread.sleep(3000);
-
-
-            driver.findElement(By.name("exDate")).clear();
-            driver.findElement(By.name("exDate")).sendKeys("0820");
-            Thread.sleep(3000);
-
-            driver.findElement(By.name("phoneNumber")).clear();
-            driver.findElement(By.name("phoneNumber")).sendKeys("901203445");
-            Thread.sleep(3000);
-
-            driver.findElement(By.xpath("//button[@type='submit']")).click();
-            Thread.sleep(10000);
-
-
-        }
+//        @Test
+//            public  void Gaz() throws Exception {
+//
+//            driver.findElement(By.className("uicon-cat-communal")).click();
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.linkText("Газ")).click();
+//            Thread.sleep(3000);
+//
+//            new Select(driver.findElement(By.name("regionCode"))).selectByVisibleText("г. Ташкент");
+//            Thread.sleep(3000);
+//
+//            new Select(driver.findElement(By.name("subRegionCode"))).selectByVisibleText("Юнусабадский район");
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.name("account")).clear();
+//            driver.findElement(By.name("account")).sendKeys("07315130");
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.name("amount")).clear();
+//            driver.findElement(By.name("amount")).sendKeys("500");
+//            Thread.sleep(2000);
+//
+//            driver.findElement(By.xpath("//button[@type='submit']")).click();
+//            Thread.sleep(5000);
+//
+//
+//            Assert.assertEquals("Наименование Услуги:", driver.findElement(By.xpath("//td[contains(text(),'Наименованиие Услуги:')]")).getText());
+//
+//            new Select(driver.findElement(By.name("type"))).selectByVisibleText("Нет");
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.name("counterFrom")).click();
+//            driver.findElement(By.name("counterFrom")).sendKeys("01012018");
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.name("counterTo")).click();
+//            driver.findElement(By.name("counterTo")).sendKeys("01052018");
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.name("cardNumber")).clear();
+//            driver.findElement(By.name("cardNumber")).sendKeys("8600510369728378");
+//            Thread.sleep(3000);
+//
+//
+//            driver.findElement(By.name("exDate")).clear();
+//            driver.findElement(By.name("exDate")).sendKeys("0820");
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.name("phoneNumber")).clear();
+//            driver.findElement(By.name("phoneNumber")).sendKeys("901203445");
+//            Thread.sleep(3000);
+//
+//            driver.findElement(By.xpath("//button[@type='submit']")).click();
+//            Thread.sleep(10000);
+//
+//
+//        }
 
         @Test
             public void MahsusTrans() throws Exception {

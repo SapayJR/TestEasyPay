@@ -7,6 +7,8 @@ import uz.smst.cabinet.Settings.WebDriverSettings;
 public class Amuse extends WebDriverSettings {
 
 
+
+
     @Test
     public void Anhor() throws Exception {
 
