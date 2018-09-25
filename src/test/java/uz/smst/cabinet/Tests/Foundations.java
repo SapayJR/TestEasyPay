@@ -14,8 +14,6 @@ public class Foundations extends WebDriverSettings {
 
         driver.findElement(By.xpath("//i[@class='fa u-charity']")).click();
 
-        Assert.assertTrue(isElementPresent(By.xpath("//img[@class='img-responsive hvr-bounce-in']")));
-
         driver.findElement(By.xpath("//div[@class='card card-action']//div[@class='card-body']")).click();
 
         new Select(driver.findElement(By.name("regionCode"))).selectByVisibleText("Вакф");

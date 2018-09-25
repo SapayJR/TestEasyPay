@@ -55,7 +55,7 @@ public class Amuse extends WebDriverSettings {
         driver.findElement(By.linkText("Развлечение")).click();
         Thread.sleep(3000);
 
-        driver.findElement(By.linkText("Lokomotiv Istirohat")).click();
+        driver.findElement(By.linkText("Локомотив Истирохат")).click();
         Thread.sleep(3000);
 
         driver.findElement(By.name("account")).clear();
